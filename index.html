@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cronômetro JS</title>
+   <link rel="stylesheet" href="sass/style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <div class="container">
+      <h1>Cronômetro</h1>
+      <p>Tempo Geral</p>
+      <p><span id="minutes">00</span>:<span id="seconds">00</span>:<span id="dezenas">00</span></p>
+
+      <!-- turns -->
+      <p>Tempo da volta: </p>
+      <p><span id="minutesTurn">00</span>:<span id="turns">00</span>:<span id="tens">00</span></p>
+
+      <button class="start" id="button-start"><i class="fa-solid fa-play"></i> Iniciar</button>
+      <button class="turn" id="button-turn"><i class="fa-solid fa-arrow-right-arrow-left"></i> Volta</button>
+      <button class="stop" id="button-stop"><i class="fa-solid fa-stop"></i> Parar</button>
+      <button class="restart" id="button-reset"><i class="fa-solid fa-rotate-left"></i> Recomeçar</button>
+
+      <div class="voltas" id="volta"></div>
+   </div>
+
+   <div style="display: flex; justify-content: center;">
+      <div class="alert" id="message" style="display: none;">
+         Inicie o cronômetro primeiro.
+      </div>
+   </div>
+
+   <script src="script.js"></script>
+   <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+</body>
+
+</html>

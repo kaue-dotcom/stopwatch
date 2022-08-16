@@ -1,0 +1,68 @@
+body {
+  background: #fff;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.container h1 {
+  font-size: 4.2rem;
+}
+.container span {
+  font-size: 3.2rem;
+}
+.container button {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 25px;
+  width: 140px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.container button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  top: -5px;
+}
+.container .start {
+  background-color: #1e5b3c;
+  color: white;
+}
+.container .stop {
+  background-color: red;
+  color: white;
+}
+.container .restart {
+  background-color: orange;
+  color: white;
+}
+.container .turn {
+  background-color: #00bcd4;
+  color: white;
+}
+.container .voltas {
+  display: grid;
+}
+.container #voltas {
+  font-size: 20px !important;
+}
+
+.alert {
+  position: fixed;
+  z-index: 1080;
+  background: red;
+  color: white;
+  padding: 15px;
+  border-radius: 19px;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

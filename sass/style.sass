@@ -1,0 +1,69 @@
+$yellow: #eeec48
+$white: #fff
+$base-color: #fff
+
+body
+   background: $base-color
+   font-family: 'Nunito', sans-serif
+
+.container
+   padding-right: 15px
+   padding-left: 15px
+   margin-right: auto
+   margin-left: auto
+   text-align: center
+
+   h1
+      font-size: 4.2rem
+
+   span
+      font-size: 3.2rem
+
+   button
+      padding: 10px
+      font-size: 18px
+      border-radius: 25px
+      width: 140px
+      margin: 10px
+      cursor: pointer
+      border: none
+      position: relative
+      top: 0
+      transition: top ease 0.5s
+
+      &:hover
+         box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px
+         top: -5px
+
+   .start
+      background-color: #1e5b3c
+      color: white
+
+   .stop
+      background-color: red
+      color: white
+
+   .restart
+      background-color: orange
+      color: white
+
+   .turn
+      background-color: #00bcd4
+      color: white
+   
+   .voltas
+      display: grid
+   
+   #voltas
+      font-size: 20px !important
+
+.alert 
+   display:none
+   position: fixed
+   z-index: 1080
+   background: red
+   color: white
+   padding: 15px
+   border-radius: 19px
+   margin-top: 10px
+
